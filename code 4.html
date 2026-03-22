@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cloud Data Center Solution</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:#0a0f1c;color:#fff;}
+section{padding:100px 10%;text-align:center;}
+h1,h2{margin-bottom:20px;}
+
+.hero{
+height:100vh;display:flex;align-items:center;justify-content:center;
+background:linear-gradient(to right,#000428,#004e92);
+}
+.hero h1{font-size:3rem;}
+
+.cards{display:flex;gap:20px;flex-wrap:wrap;justify-content:center;margin-top:20px;}
+.card{
+background:rgba(255,255,255,0.05);
+padding:20px;border-radius:12px;width:260px;
+transition:0.3s;
+}
+.card:hover{transform:translateY(-10px);}
+
+.hidden{opacity:0;transform:translateY(40px);}
+.show{opacity:1;transform:translateY(0);transition:0.8s;}
+
+.table{
+margin:auto;border-collapse:collapse;width:80%;
+}
+.table th,.table td{
+border:1px solid #444;padding:10px;
+}
+.table th{background:#1f2937;}
+
+.card img{
+border-radius:10px;
+margin-bottom:10px;
+}
+
+footer{padding:20px;background:#000;text-align:center;}
+a{color:#fff;text-decoration:none;}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div>
+    <h1>Cloud-Assisted Data Center</h1>
+    <p>Solution for Online Training Institute</p>
+  </div>
+</section>
+
+<!-- PROBLEM -->
+<section class="hidden">
+  <h2>Problem Statement</h2>
+  <p style="max-width:800px;margin:auto;line-height:1.6;">
+    The online training institute requires a reliable IT infrastructure to support live and recorded classes,
+    conduct online examinations, and store student data for up to 3 years.
+  </p>
+</section>
+
+<!-- ARCHITECTURE -->
+<section class="hidden">
+  <h2>Proposed Architecture (Hybrid Cloud)</h2>
+  <div class="cards">
+    <div class="card">🏢 On-Premise (Admin + Backup)</div>
+    <div class="card">☁️ Cloud (LMS + Exams)</div>
+    <div class="card">🌐 Load Balancer</div>
+  </div>
+</section>
+
+<!-- STORAGE -->
+<section class="hidden">
+  <h2>Storage Solution & SDS</h2>
+  <div class="cards">
+    <div class="card">📦 Object Storage (Videos)</div>
+    <div class="card">💾 Block Storage (Database)</div>
+    <div class="card">🔄 Backup Storage (3 Years)</div>
+  </div>
+  <p style="margin-top:20px;">
+    SDS enables centralized and scalable storage independent of hardware.
+  </p>
+</section>
+
+<!-- VIDEOS -->
+<section class="hidden">
+  <h2>Video Lectures</h2>
+  <div class="cards">
+
+    <div class="card">
+      <a href="https://www.youtube.com/watch?v=tkL9rnleSNs" target="_blank">
+        <img src="https://img.youtube.com/vi/tkL9rnleSNs/0.jpg" width="100%">
+        <p>Lecture 1</p>
+      </a>
+    </div>
+
+    <div class="card">
+      <a href="https://www.youtube.com/watch?v=wOBA6Wri0Fg" target="_blank">
+        <img src="https://img.youtube.com/vi/wOBA6Wri0Fg/0.jpg" width="100%">
+        <p>Lecture 2</p>
+      </a>
+    </div>
+
+    <div class="card">
+      <a href="https://www.youtube.com/watch?v=fNzpcB7ODxQ" target="_blank">
+        <img src="https://img.youtube.com/vi/fNzpcB7ODxQ/0.jpg" width="100%">
+        <p>Lecture 3</p>
+      </a>
+    </div>
+
+    <div class="card">
+      <a href="https://www.youtube.com/watch?v=Zv9h0il_T04" target="_blank">
+        <img src="https://img.youtube.com/vi/Zv9h0il_T04/0.jpg" width="100%">
+        <p>Lecture 4</p>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- PDF -->
+<section class="hidden">
+  <h2>Study Materials</h2>
+  <div class="cards">
+
+    <div class="card">
+      <a href="https://drive.google.com/file/d/12D87pIGJhHoZdWMOzwFRaR5W-rPGCrjL/view" target="_blank">📄 Notes 1</a>
+    </div>
+
+    <div class="card">
+      <a href="https://drive.google.com/file/d/1mgL8IvQGkyL-a6L5B_wySDNI7U5NzvHn/view" target="_blank">📄 Notes 2</a>
+    </div>
+
+    <div class="card">
+      <a href="https://drive.google.com/file/d/12Lk94z7hsKW0IzrzPWfQ-zohlk1dadmr/view" target="_blank">📄 Notes 3</a>
+    </div>
+
+    <div class="card">
+      <a href="https://drive.google.com/file/d/14wbLz1hGl2W8x6m5ecM5EqFGMq-EVP18/view" target="_blank">📄 Notes 4</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXAM -->
+<section class="hidden">
+  <h2>Online Examination</h2>
+  <div class="cards">
+    <div class="card">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScVccd9ytF8li_VcTERexN3YMgHl6iuTI1mjJ72mBB0bt8n4g/viewform" target="_blank">
+        📝 Start Exam
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- COST -->
+<section class="hidden">
+  <h2>Cost Distribution</h2>
+  <table class="table">
+    <tr><th>Component</th><th>%</th></tr>
+    <tr><td>Compute</td><td>40%</td></tr>
+    <tr><td>Storage</td><td>35%</td></tr>
+    <tr><td>Backup</td><td>25%</td></tr>
+  </table>
+</section>
+
+<!-- CONCLUSION -->
+<section class="hidden">
+  <h2>Conclusion</h2>
+  <p>
+    This platform demonstrates a cloud-assisted architecture using web-based services for compute,
+    storage, and application delivery.
+  </p>
+</section>
+
+<footer>
+  © 2026 Cloud Project
+</footer>
+
+<script>
+const observer=new IntersectionObserver(entries=>{
+entries.forEach(entry=>{
+if(entry.isIntersecting){
+entry.target.classList.add("show");
+}});
+});
+document.querySelectorAll(".hidden").forEach(el=>observer.observe(el));
+</script>
+
+</body>
+</html>

@@ -20,12 +20,22 @@ background:linear-gradient(to right,#000428,#004e92);
 .hero h1{font-size:3rem;}
 
 .cards{display:flex;gap:20px;flex-wrap:wrap;justify-content:center;margin-top:20px;}
-.card{
-background:rgba(255,255,255,0.05);
-padding:20px;border-radius:12px;width:260px;
-transition:0.3s;
+.card {
+  display: block;
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 12px;
+  width: 260px;
+  text-align: center;
+  transition: 0.3s;
+  text-decoration: none;
+  color: white;
 }
-.card:hover{transform:translateY(-10px);}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
 
 .hidden{opacity:0;transform:translateY(40px);}
 .show{opacity:1;transform:translateY(0);transition:0.8s;}
@@ -131,21 +141,21 @@ a{color:#fff;text-decoration:none;}
   <h2>Study Materials</h2>
   <div class="cards">
 
-    <div class="card">
-      <a href="https://drive.google.com/file/d/12D87pIGJhHoZdWMOzwFRaR5W-rPGCrjL/view" target="_blank">📄 Notes 1</a>
-    </div>
+   
+      <a href="https://drive.google.com/file/d/12D87pIGJhHoZdWMOzwFRaR5W-rPGCrjL/view" target="_blank" class="card">📄 Notes 1</a>
+  
 
-    <div class="card">
-      <a href="https://drive.google.com/file/d/1mgL8IvQGkyL-a6L5B_wySDNI7U5NzvHn/view" target="_blank">📄 Notes 2</a>
-    </div>
+  
+      <a href="https://drive.google.com/file/d/1mgL8IvQGkyL-a6L5B_wySDNI7U5NzvHn/view" target="_blank" class="card">📄 Notes 2</a>
+    
 
-    <div class="card">
-      <a href="https://drive.google.com/file/d/12Lk94z7hsKW0IzrzPWfQ-zohlk1dadmr/view" target="_blank">📄 Notes 3</a>
-    </div>
+  
+      <a href="https://drive.google.com/file/d/12Lk94z7hsKW0IzrzPWfQ-zohlk1dadmr/view" target="_blank" class="card">📄 Notes 3</a>
+   
 
-    <div class="card">
-      <a href="https://drive.google.com/file/d/14wbLz1hGl2W8x6m5ecM5EqFGMq-EVP18/view" target="_blank">📄 Notes 4</a>
-    </div>
+    
+      <a href="https://drive.google.com/file/d/14wbLz1hGl2W8x6m5ecM5EqFGMq-EVP18/view" target="_blank" class="card">📄 Notes 4</a>
+    
 
   </div>
 </section>
